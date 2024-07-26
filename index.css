@@ -1,0 +1,93 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #4dc000;
+}
+
+
+header {
+    background-color: #92173c;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    color: #6c757d;
+}
+
+
+#about-me {
+    padding: 40px 0;
+    background-color: #e9ecef;
+}
+
+#about-me h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#portfolio {
+    padding: 40px 0;
+}
+
+#portfolio .card {
+    transition: transform 0.2s;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.05);
+}
+
+
+#contact {
+    padding: 40px 0;
+    background-color: #e9ecef;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+}
+
+
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #portfolio .card {
+        margin-bottom: 20px;
+    }
+}
